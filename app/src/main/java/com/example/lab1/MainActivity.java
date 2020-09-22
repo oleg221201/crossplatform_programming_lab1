@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
         int addNum = Integer.parseInt(addText);
         int mulNum = Integer.parseInt(mulText);
 
+        //рівняння, за яким рахуємо Дискримінант:
         // y^2 - y*sum + mul = 0
 
         double D = Math.pow(addNum, 2) - 4 * mulNum;
